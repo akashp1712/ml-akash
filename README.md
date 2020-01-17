@@ -1,3 +1,9 @@
+---
+title:  Machine Learning
+has_children: false
+nav_order: 1
+---
+
 # Machine Learning notes in Q&A style
 
 ### What Is Machine Learning?
