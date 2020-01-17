@@ -8,6 +8,6 @@ color_scheme: nil
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 aux_links:
-  "ML-Akash on GitHub":
+  "See this on GitHub":
     - "//github.com/akashp1712/ml-akash"
 footer_content: "Copyright &copy; 2020 Akash Panchal. Distributed by an <a href=\"https://github.com/akashp1712/ml-akash/tree/master/LICENSE.txt\">MIT license.</a>"
