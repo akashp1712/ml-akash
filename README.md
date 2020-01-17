@@ -1,6 +1,6 @@
 # Machine Learning
 
-###### Machine Learning notes in Q&A style
+##### Machine Learning notes in Q&A style
 
 ### What Is Machine Learning?
 - A general definition
