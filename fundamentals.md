@@ -24,14 +24,13 @@ Machine Learning is great for...<br/>
 ---
 #### Types of Machine Learning Systems
 
-There are so many different types of Machine Learning systems that it is useful<br/>
-to classify them in broad categories, based on the following criteria:<br/>
+There are so many different types of Machine Learning systems that it is useful to classify them in broad categories, based on the following criteria:<br/>
 
 - Whether or not they are trained with human supervision<br/>
   (supervised, unsupervised, semisupervised and reinforcement learning)
 - Whether or not they learn incrementally on the fly (online versus batch learning)
-- Insance based(work by simply comparing new data points to known data points)<br/>
-  OR Model based(work by detecting patterns in the training data and building a predictive model)<br/>
+- Insance based(work by simply comparing new data points to known data points) OR Model based(work by detecting patterns in the training data and building a predictive model)<br/>
+
 ---
 
 
@@ -55,26 +54,22 @@ The most common supervised tasks are **Classification** and **Regression.**
 Reinforcement Learning
 
 
-**7. What type of algorithm would you use to segment your customers into multiple groups?**
-If we can defien the lables then, classification algorithms(supervised learning) <br/>
-But if we can not define (or identify) the labels then, clustering algorithms (unsupervised learning)
+**7. What type of algorithm would you use to segment your customers into multiple groups?**<br/>
+If we can defien the lables then, classification algorithms(supervised learning) But if we can not define (or identify) the labels then, clustering algorithms (unsupervised learning)
 
 
-**8. Spam detection is in example of Supervised learning Or Unsupervised learning?**
+**8. Spam detection is in example of Supervised learning Or Unsupervised learning?**<br/>
 Spam detection is a supervised learning problem.
 
 
-**9. What is an online learning system?**
-In online learning, you train the system incrementally by feeding it data instances sequentially,<br/>
-either individually or in small groups called mini-batches.
+**9. What is an online learning system?**<br/>
+In online learning, you train the system incrementally by feeding it data instances sequentially, either individually or in small groups called mini-batches.
   - Learning is fast and cheap, so the system can learn about new data on the fly, as it arrives.
   - Great for system that receive data as continuous flow, And need to adapt to change rapidly.
 
 
-**10. What is out-of-core learning?**
-An Out-of-core learning algorithm splits the data into mini-batches and uses online learning(incremental)
-algorithms to learn from these mini-batches.<br/>
-This is useful when the entire data can not fit into computer's memory.
+**10. What is out-of-core learning?**<br/>
+An Out-of-core learning algorithm splits the data into mini-batches and uses online learning(incremental) algorithms to learn from these mini-batches.This is useful when the entire data can not fit into computer's memory.
 
 
 **11. What type of learning algorithm relies on a similarity measure to make predictions?**
