@@ -15,6 +15,11 @@ Then, when it sees a new instance, it can tell whether it looks like a normal on
 - **Assoicate Rule learning**<br/>
 The goal is to dig into large amounts of data and discover interesting relations between attributes.
 
+
+- **Cost function**<br/>
+Cost function measures how bad your model is.
+
+
 - **Dimensionality reduction**<br/>
 It is a task that simplifies the data without loosing too much information.<br/>
 e.g., One wasy to do this is to merge several correlated features into one.
@@ -25,8 +30,16 @@ Feature extraction is identifying new feature from the existing set of features.
 e.g., By combining multiple features into one using dimensionality reduction.
 
 
+- **Fitness function**<br/>
+Fitness function or Utility function measures how good your model is.
+
+
 - **Hierarchical clusterin algorithm:**<br/>
 It is an Unsupervised learning technique, It subdivides each group into smaller group.<br/>
+
+
+- **Instance-based learning**<br/>
+In this kind of learning, The system learns the example, then generalizes to new cases by using a similarity measure to compare them to the learned examples.
 
 
 - **Novelty detection**<br/>
