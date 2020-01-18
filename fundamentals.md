@@ -72,24 +72,28 @@ In online learning, you train the system incrementally by feeding it data instan
 An Out-of-core learning algorithm splits the data into mini-batches and uses online learning(incremental) algorithms to learn from these mini-batches.This is useful when the entire data can not fit into computer's memory.
 
 
-**11. What type of learning algorithm relies on a similarity measure to make predictions?**
+**11. What type of learning algorithm relies on a similarity measure to make predictions?**<br/>
+Instance based learning algorithm relies on a similarity measure to make predictions.
 
-**12. What is the difference between a model parameter and a learning algorithm's hyperparameter?**
 
-**13. What do model-based learnign algorithms search for? What is the most commmon strategy
-      they use to succeed? How do they make predictions?**
+**12. What is the difference between a model parameter and a learning algorithm's hyperparameter?**<br/>
+A model has one or more *model parameter* that determines what it will predict given a new instance. A learning algorithm tries to find optimal values for these parameters such that the model generalizes well to new instances
+
+A *hyperparameter* is a parameter of the learning algorithm itself, not of the model. (e.g., the amount of regularization to apply).
+
+
+**13. What do model-based learnign algorithms search for? What is the most commmon strategy they use to succeed? How do they make predictions?**<br/>
     
-**14. Can you name four main challenges in Machine Learning?**
+**14. Can you name four main challenges in Machine Learning?**<br/>
 
-**15. If your model performs great on the training data but generalizes poorly to new instances,
-      What is happenning? Can you name three possible solutions?**
+**15. If your model performs great on the training data but generalizes poorly to new instances, What is happenning? Can you name three possible solutions?**<br/>
     
-**16. What is a test set, and why would you want to use it?**
+**16. What is a test set, and why would you want to use it?**<br/>
 
-**17. What is the purpose of a validation set?**
+**17. What is the purpose of a validation set?**<br/>
 
-**18. What is the train-dev set, when do you need it, and how do you use it?**
+**18. What is the train-dev set, when do you need it, and how do you use it?**<br/>
 
-**19. What can go wrong if you tune hyperparameters using the test set?**
+**19. What can go wrong if you tune hyperparameters using the test set?**<br/>
 
 
