@@ -14,6 +14,15 @@ Learning means getting better at some task, given some performance measuermeasur
 
 **2. List out four types of problems that can be solved using it.**
 
+Machine Learning is great for...<br/>
+  - Problems for which existing solution require a lot of fine-tuning or long list of ruls.<br>
+    One Machine Learning algorithm can often simplify code and perform better than the traditional approach.
+  - **Complex problem** for which using a traditional approach yields no good solution.<br>
+    The best Machine Learnign techniques can perhaps find a solution.<br/>
+  - **Fluctuating environments**: A Machine Learning system can adapt to new data.<br/>
+  - Getting insights about complex problems and large amounts of data.(e.g., data mining)<br/>
+
+
 **3. What is a labeled training set?**
 
 **4. What are the two most common supervised tasks?**
