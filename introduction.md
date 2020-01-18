@@ -6,7 +6,7 @@ nav_order: 2
 
 # Fundamentals of Machine Learning
 
-**1. Define Machien Learning**
+**1. Define Machine Learning**
 
 Machine Learning is about building systems that can learn from data.<br/>
 Learning means getting better at some task, given some performance measuermeasure.<br/>
