@@ -106,10 +106,10 @@ A *hyperparameter* is a parameter of the learning algorithm itself, not of the m
  Feature engineering: A critical part of the success of a Machine Learning project is coming up with a good set of features to train on.
  ```
  
- #### Challenges wrt Bad Algorithms
+#### Challenges wrt Bad Algorithms
  
-  - *Overfitting the Training Data*: The model performs well on the training data, but it does not generalize well.
-  - *Underfitting the Training Data*: The mode is too simple to learn the underlyting structure of the data.
+ - *Overfitting the Training Data*: The model performs well on the training data, but it does not generalize well.
+ - *Underfitting the Training Data*: The mode is too simple to learn the underlyting structure of the data.
 
 **15. If your model performs great on the training data but generalizes poorly to new instances, What is happenning? Can you name three possible solutions?**<br/>
 Here, The model is overfitt to the data. That happens when the model is too complex relative to the amount and noisiness of the training data. Followings are the possible solutions:<br/>
