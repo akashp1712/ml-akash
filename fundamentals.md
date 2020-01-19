@@ -83,10 +83,50 @@ A *hyperparameter* is a parameter of the learning algorithm itself, not of the m
 
 
 **13. What do model-based learnign algorithms search for? What is the most commmon strategy they use to succeed? How do they make predictions?**<br/>
-    
+ - Modle based learning algorithms search for an optimal value for the model parameter such that the model will generalize well to new instances.
+ - The model gets trained by minimizing a cost function that measures how bad the system is at making predictions on the training data, plus a penalty for model complexity if the model is regularized.
+ - The trained Modles make predictions by taking features of new instance and predicting using the learned function. 
+
+
 **14. Can you name four main challenges in Machine Learning?**<br/>
 
+#### Challenges wrt Bad Data
+
+ - *Insufficient quantity of training data*: It takes a lot of data for most ML algorithms to work properly.
+ - *Nonrepresentative Training Data*: IT is crucial to have training data that is representative of the new cases.
+ ```
+ If the sample is too small, you will have sampling noise, but even very large samples can be nonrepresentative if the sampling method is flawed. This is called sampling bias.
+ ```
+ - *Poor-Quality data*: If training data is full of errors, outliers, and noise, it will make harder for the system to detect the underlying patterns.
+ ```
+ Most data scientists spend a significant part of their time doing data cleaning only.
+ ```
+ - *Irrelevant Features*: System will only capable of learning if the training data contains enough relevant features and not too many irrelevant ones.
+ ```
+ Feature engineering: A critical part of the success of a Machine Learning project is coming up with a good set of features to train on.
+ ```
+ 
+ #### Challenges wrt Bad Algorithms
+ 
+  - *Overfitting the Training Data*: The model performs well on the training data, but it does not generalize well.
+  - *Underfitting the Training Data*: The mode is too simple to learn the underlyting structure of the data.
+
 **15. If your model performs great on the training data but generalizes poorly to new instances, What is happenning? Can you name three possible solutions?**<br/>
+Here, The model is overfitt to the data. That happens when the model is too complex relative to the amount and noisiness of the training data. Followings are the possible solutions:<br/>
+
+ -Simplifying the model by selecting one with fewer parameters, which is by choosing linear model over high-degree polynomial model(reduce the number of attributes in the training data).
+ - Gather more training data.
+ - Reduce the noise in the training data, like by fixing data errors and remove outliers.
+ ```
+ Constraining a model to make it simpler and reduce the risk of overfittign is called regularization.
+ ```
+
+**16. What is Underfitting? And How to fix it?**<br/>
+Underfitting occurs when the model is too simple to learn the underlying structure of the data. Followings are the possible fix:<br/>
+ - Select a more powerful model with more parameters.
+ - Feed better features to the learning algorithm (feature engineering).
+ - Reduce the constrain of the model (e.g., reduce the regularization hyperparameter).
+
     
 **16. What is a test set, and why would you want to use it?**<br/>
 
