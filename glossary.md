@@ -25,6 +25,13 @@ It is a task that simplifies the data without loosing too much information.<br/>
 e.g., One wasy to do this is to merge several correlated features into one.
 
 
+- **Feature Engineering**<br/>
+Feature engineering consists the follwoing steps:
+ - Feature selection(selecting the most useful features to train on among existing features)
+ - Feature extraction(combining existing features to produce a more useful on)
+ - Creating new features by gathering new data
+ 
+ 
 - **Feature extraction**<br/>
 Feature extraction is identifying new feature from the existing set of features.<br/>
 e.g., By combining multiple features into one using dimensionality reduction.
@@ -34,8 +41,12 @@ e.g., By combining multiple features into one using dimensionality reduction.
 Fitness function or Utility function measures how good your model is.
 
 
-- **Hierarchical clusterin algorithm:**<br/>
+- **Hierarchical clusterin algorithm**<br/>
 It is an Unsupervised learning technique, It subdivides each group into smaller group.<br/>
+
+
+- **Inference**<br/>
+Inference is applying the model to make predictions on new cases.
 
 
 - **Instance-based learning**<br/>
@@ -47,14 +58,25 @@ It aims to detect new instances that look different from all instances in the tr
 
 
 - **Offline learning(Batch learning)**<br/>
-In batch learning, system is incapable of learning incrementally: it must be trained using all the available data.<br/>
-First the system is trained, and then it is launched into production and runs wihout learning anymore.<br/>
-It just applies what is has learned.
+In batch learning, system is incapable of learning incrementally: it must be trained using all the available data. First the system is trained, and then it is launched into production and runs wihout learning anymore. It just applies what is has learned.
 
 
 - **Online learning**<br/>
-In online learning, you train the system incrementally by feeding it data instances sequentially,<br/>
-either individually or in small groups called mini-batches.
+In online learning, you train the system incrementally by feeding it data instances sequentially, either individually or in small groups called mini-batches.
+
+
+- **Overfitting**<br/>
+It means that the model performs well on the training data, but it does not generalize well.<br/>
+Overfitting happens when the model is too complex relative to the amount and noisiness of the training data.
+
+
+- **Regularization**<br/>
+ - Constraining a model to make it simpler and reduce the risk of overfittign is called regularization.
+ - The amout of regularization to apply during learning can be controlled by a hyperparameter. Is it aparameter of a learning algorithm and must be set prior to training and remains constant during training.
+
+
+- **Underfitting**<br/>
+Underfitting happens when the model is too simple to learn the underlying structure of the data.
 
 
 - **Visualization Algorithms**<br/>
