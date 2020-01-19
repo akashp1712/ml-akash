@@ -128,12 +128,27 @@ Underfitting occurs when the model is too simple to learn the underlying structu
  - Reduce the constrain of the model (e.g., reduce the regularization hyperparameter).
 
     
-**16. What is a test set, and why would you want to use it?**<br/>
+**17. What is a test set, and why would you want to use it?**<br/>
+We split the data into two sets: The *training set* and the *test set*. We train the model using the training set and test it using the test set.<br/>
+We *evaluate* the model(error rate on new cases) using the test set which tell us how the model will perfomr on instances it has never seen before.
 
-**17. What is the purpose of a validation set?**<br/>
 
-**18. What is the train-dev set, when do you need it, and how do you use it?**<br/>
+**18. What is the purpose of a validation set?**<br/>
+We use holdout validation to hold out part of the training set to evaluate several candidates models and select the best one. The new hold-out set is called the validation set.<br/>
 
-**19. What can go wrong if you tune hyperparameters using the test set?**<br/>
+Here, how we can use it:
+ - Holdout Validation: Train multiple models with various hyperparameters on the reduced training set (the full training set minus the validation set).
+ - Train the best model on the full training set(including the validation set), which gives the final model.
+ - Evaluate this final model on the test set to get an estimate of the generalize error.
 
+
+**19. What is the train-dev set, when do you need it, and how do you use it?**<br/>
+The *train-dev* set is used when there is risk of mismatch between the training data and the data used in the validation and test datasets.<br/>
+The train-dev set is a part of the training data set that's held out. The model is trained on the rest of the training set, and evaluated on both the train-dev set and the validation set.
+ - If the model performs well on the training set but not on the train-dev set, then the model is likely overfitting the training set.
+ - If the model performs well on both the training set and the train-dev set, but not on the validation set, then there is probably a significant data mismatch between the *training data* and the *validation + test data*. And we should try to improve the trainig data to make it look like more like the validation + test data.
+ 
+
+**20. What can go wrong if you tune hyperparameters using the test set?**<br/>
+If you tune hyperparameters using the test set, you risk overfitting the test set.
 
