@@ -15,4 +15,6 @@ A computer is said to learn from experience E with respect to some task T and so
 if its performance on T, as measured by P, improves with experience E. - Tom Mitchell, 1997
 ```
 
-[Next Page: Fundamentals](https://akashp1712.github.io/ml-akash/fundamentals/)
+---
+
+[**Next Page: Fundamentals**](https://akashp1712.github.io/ml-akash/fundamentals/)
