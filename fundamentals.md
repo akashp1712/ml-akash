@@ -148,6 +148,14 @@ The train-dev set is a part of the training data set that's held out. The model 
  - If the model performs well on the training set but not on the train-dev set, then the model is likely overfitting the training set.
  - If the model performs well on both the training set and the train-dev set, but not on the validation set, then there is probably a significant data mismatch between the *training data* and the *validation + test data*. And we should try to improve the trainig data to make it look like more like the validation + test data.
  
+##### Let's visualize the splitting (Github style)
+    ├──Data
+    ├ ├──training set
+    ├ ├ ├──training set
+    ├ ├ ├ ├──training set
+    ├ ├ ├ ├──train-dev set
+    ├ ├ ├──validation set
+    ├ ├──Test set
 
 **20. What can go wrong if you tune hyperparameters using the test set?**<br/>
 If you tune hyperparameters using the test set, you risk overfitting the test set.
