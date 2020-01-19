@@ -41,6 +41,11 @@ e.g., By combining multiple features into one using dimensionality reduction.
 Fitness function or Utility function measures how good your model is.
 
 
+- **Generalization error**<br/>
+The error rate on new cases is called the generalization error (or out-of-sample error).<br/>
+If the training error is low(i.e., the model makes few mistaks on the test set) but the generalization error is high, it means that your model is overfitting the training data.
+
+
 - **Hierarchical clusterin algorithm**<br/>
 It is an Unsupervised learning technique, It subdivides each group into smaller group.<br/>
 
