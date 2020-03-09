@@ -22,7 +22,7 @@ Machine Learning is great for...<br/>
 
 
 ---
-#### Types of Machine Learning Systems
+#### <b>Types of Machine Learning Systems</b>
 
 There are so many different types of Machine Learning systems that it is useful to classify them in broad categories, based on the following criteria:<br/>
 
