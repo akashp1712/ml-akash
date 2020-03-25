@@ -7,6 +7,9 @@ nav_order: 3
 # Interesting code snippets
 
 **1. Transformer to select important attributes w.r.t linear correlation**<br/>
+
+    import pandas as pd
+    from sklearn.base import BaseEstimator, TransformerMixin
     
     class ImportantAttributeSelector(BaseEstimator, TransformerMixin):
     # This Transformer helpes in selecting top attributes having linear correlation and eliminating a few
@@ -36,4 +39,9 @@ nav_order: 3
         # create the list of attributes and return the required attribute
         attr_set = list(map(lambda item: item[1], tr_target_corr_matrix))
         return attr_set[:attr_count]
+
+
+**2. Select only numeric values from the dataset(pandas dataframe)**<br/>
+
+       numeric_data = data.select_dtypes(exclude=["object"]).copy()
 
