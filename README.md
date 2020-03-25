@@ -1,6 +1,6 @@
 # Machine Learning
 
-##### Machine Learning notes in Q&A style
+##### Machine Learning notes and useful examples
 ---
 
 ### What Is Machine Learning?
