@@ -1,3 +1,5 @@
+import pandas as pd
+from sklearn.base import BaseEstimator, TransformerMixin
 
 class ImportantAttributeSelector(BaseEstimator, TransformerMixin):
     # This Transformer helpes in selecting top attributes having linear correlation and eliminating a few
