@@ -44,6 +44,6 @@ def transform(self, X, attr_count):
 
 **2. Select only numeric values from the dataset(pandas dataframe)**<br/>
         
-```py
+```python
 numeric_data = data.select_dtypes(exclude=["object"]).copy()
 ```
