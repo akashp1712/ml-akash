@@ -7,7 +7,8 @@ nav_order: 3
 # Interesting code snippets
 
 **1. Transformer to select important attributes w.r.t linear correlation**<br/>
-
+    
+    ```python
     import pandas as pd
     from sklearn.base import BaseEstimator, TransformerMixin
     
@@ -42,6 +43,7 @@ nav_order: 3
 
 
 **2. Select only numeric values from the dataset(pandas dataframe)**<br/>
-
+        
+       ```py
        numeric_data = data.select_dtypes(exclude=["object"]).copy()
 
