@@ -23,7 +23,7 @@ if its performance on T, as measured by P, improves with experience E. - Tom Mit
 - [**Predicting: California Housing Prices**](https://github.com/akashp1712/ml-akash/tree/master/Projects/Housing)
 
 ## Articles
-- [**Handling the missing values in Data using SciKit Imputer**](https://towardsdatascience.com/handling-the-missing-values-in-data-the-easy-way-9ea5983f8ba4) [Code](https://github.com/akashp1712/ml-akash/tree/master/Articles/imputer)
+- [**Handling the missing values in Data using SciKit Imputer**](https://towardsdatascience.com/handling-the-missing-values-in-data-the-easy-way-9ea5983f8ba4)
 ---
 
 [**Next Page: Fundamentals**](https://akashp1712.github.io/ml-akash/fundamentals/)
