@@ -1,3 +1,9 @@
+---
+layout: default
+nav_exclude: true
+---
+
+
 # California Housing Price Prediction
 
 ## Data
