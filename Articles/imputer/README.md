@@ -1,3 +1,8 @@
+---
+layout: default
+nav_exclude: true
+---
+
 ## Article link
 [**Handling the missing values in Data: The Easy Way**](https://towardsdatascience.com/handling-the-missing-values-in-data-the-easy-way-9ea5983f8ba4)
 
