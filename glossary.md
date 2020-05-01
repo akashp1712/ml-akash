@@ -37,6 +37,11 @@ Feature extraction is identifying new feature from the existing set of features.
 e.g., By combining multiple features into one using dimensionality reduction.
 
 
+- **Feature Scaling**<br/>
+Practice of making all attributes to have the same scale.
+ - **Normalization(min-max scaling):** Values are shifted and rescaled so they end up ranging from 0 to 1. It substracts the min value and divides it by the max minus the min.
+ - **Standardization:** It substracts the mean value and then it divides by the standard deviation so that the resultiing distribution has unit variance. Standardization doesn't bound valeus to a specific range(i.e, 0 to 1). However, Standardization is much less affected by outliers.
+
 - **Fitness function**<br/>
 Fitness function or Utility function measures how good your model is.
 
@@ -78,7 +83,11 @@ Overfitting happens when the model is too complex relative to the amount and noi
 - **Regularization**<br/>
  - Constraining a model to make it simpler and reduce the risk of overfittign is called regularization.
  - The amout of regularization to apply during learning can be controlled by a hyperparameter. Is it aparameter of a learning algorithm and must be set prior to training and remains constant during training.
-
+ 
+ 
+- **RMSE**<br/>
+ - Root Mean Square Error is generally the preferred performance measure for regression tasks.
+ - It gives and idea of how much error the system typically makes in its predictions, with higher weight for large errors.
 
 - **Underfitting**<br/>
 Underfitting happens when the model is too simple to learn the underlying structure of the data.
