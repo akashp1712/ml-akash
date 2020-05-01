@@ -27,9 +27,9 @@ e.g., One wasy to do this is to merge several correlated features into one.
 
 - **Feature Engineering**<br/>
 Feature engineering consists the follwoing steps:
- - Feature selection(selecting the most useful features to train on among existing features)
- - Feature extraction(combining existing features to produce a more useful on)
- - Creating new features by gathering new data
+   - Feature selection(selecting the most useful features to train on among existing features)
+   - Feature extraction(combining existing features to produce a more useful on)
+   - Creating new features by gathering new data
  
  
 - **Feature extraction**<br/>
@@ -39,8 +39,8 @@ e.g., By combining multiple features into one using dimensionality reduction.
 
 - **Feature Scaling**<br/>
 Practice of making all attributes to have the same scale.
- - **Normalization(min-max scaling):** Values are shifted and rescaled so they end up ranging from 0 to 1. It substracts the min value and divides it by the max minus the min.
- - **Standardization:** It substracts the mean value and then it divides by the standard deviation so that the resultiing distribution has unit variance. Standardization doesn't bound valeus to a specific range(i.e, 0 to 1). However, Standardization is much less affected by outliers.
+    - **Normalization(min-max scaling):** Values are shifted and rescaled so they end up ranging from 0 to 1. It substracts the min value and divides it by the max minus the min.
+    - **Standardization:** It substracts the mean value and then it divides by the standard deviation so that the resultiing distribution has unit variance. Standardization doesn't bound valeus to a specific range(i.e, 0 to 1). However, Standardization is much less affected by outliers.
 
 - **Fitness function**<br/>
 Fitness function or Utility function measures how good your model is.
