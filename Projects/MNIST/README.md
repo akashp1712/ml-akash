@@ -32,5 +32,5 @@ cross_val_score [0.9676  0.9671  0.96755]
 
 ----
 
-### Notes: Know that cross_val_score takes a lot of time as it trains the multiple models underhood and test especially In the case od SVM OvO and SVM OvR.
+#### Note: Know that cross_val_score takes a lot of time as it trains the multiple models underhood and test especially In the case od SVM OvO and SVM OvR.
 
