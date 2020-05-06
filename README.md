@@ -21,6 +21,7 @@ if its performance on T, as measured by P, improves with experience E. - Tom Mit
 
 ## Projects (Github Code)
 - [**Predicting: California Housing Prices**](https://github.com/akashp1712/ml-akash/tree/master/Projects/Housing)
+- [**MNIST - Handwritten digits classification**](https://github.com/akashp1712/ml-akash/tree/master/Projects/MNIST)
 
 ## Articles
 - [**Handling the missing values in Data using SciKit Imputer**](https://towardsdatascience.com/handling-the-missing-values-in-data-the-easy-way-9ea5983f8ba4)
