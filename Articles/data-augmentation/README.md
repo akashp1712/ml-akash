@@ -4,7 +4,7 @@ nav_exclude: true
 ---
 
 ## Article link
-TODO
+[**Improving Classification accuracy on MNIST using Data Augmentation**](https://towardsdatascience.com/improving-accuracy-on-mnist-using-data-augmentation-b5c38eb5a903)
 
 **Data**:  MNIST handwritten digits.
 
